@@ -8,7 +8,7 @@
     "pages:dev": "npx wrangler pages dev ./ --kv \"img_url\" --port 8080 --binding BASIC_USER=admin --binding BASIC_PASS=123 --persist-to ./data"
   },
   "dependencies": {
-    "next": "14.2.3",
+    "next": "14.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "@cloudflare/pages-plugin-sentry": "^1.1.3",
